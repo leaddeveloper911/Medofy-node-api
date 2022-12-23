@@ -29,6 +29,6 @@ exports.isRequestValidated = (req, res, next) => {
 exports.studentVarifyRequest = [
     check('email')
         .isEmail()
-        .withMessage('Valid Email is required'),
+        .withMessage('a Valid Email is required'),
 ];
 
