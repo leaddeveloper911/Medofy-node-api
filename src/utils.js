@@ -1,4 +1,5 @@
 const nodemailer = require("nodemailer");
+//const nodemailer = require("nodemailer");
 
 function createResult(error, message, data, count) {
     const result = {};
