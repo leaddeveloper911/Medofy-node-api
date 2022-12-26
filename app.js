@@ -15,7 +15,7 @@ app.use(
     parameterLimit: 50000,
   })
 )
-
+//use midleware
 app.use(cors());
 app.use(morgan("dev"));
 app.use(express.json());
