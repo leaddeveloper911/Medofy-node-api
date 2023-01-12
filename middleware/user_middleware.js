@@ -1,5 +1,5 @@
 const jwt = require('jsonwebtoken')
-//JWT auth user_Middleware
+//JWT auth user
 exports.user_Middleware = (req, res, next) => {
     var Token = req.headers["authorization"]
     const bearer = Token.split(' ');
